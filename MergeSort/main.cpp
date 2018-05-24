@@ -96,10 +96,10 @@ int main() {
 	int swapTimes = 0;
 	cout << "Test for Random Nearly Ordered Array, size = " << n << ", swap time = " << swapTimes << endl;
 	int *arr3 = SortTestHelper::generateNearlyOrderedArray(n, swapTimes);
-	int *arr4 = SortTestHelper::copyArray(arr1, n);
+	int *arr4 = SortTestHelper::copyArray(arr3, n);
 
-	SortTestHelper::testSort("Insertion Sort", insertionSortAdvanced, arr1, n);
-	SortTestHelper::testSort("Merge Sort", mergeSort, arr2, n);
+	SortTestHelper::testSort("Insertion Sort", insertionSortAdvanced, arr3, n);
+	SortTestHelper::testSort("Merge Sort", mergeSort, arr4, n);
 
 	delete[] arr1;
 	delete[] arr2;
