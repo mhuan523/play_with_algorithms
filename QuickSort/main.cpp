@@ -81,7 +81,7 @@ int __partition2(T arr[], int l, int r)
 template<typename T>
 int __partition(T arr[], int l, int r)
 {
-	swap(arr[l], arr[rand() % (r - l + 1) + l]);
+	swap(arr[l], arr[rand() % (r - l + 1) + l]); 
 	T v = arr[l];
 	//arr[l+1...j] < v; arr[j+1...i) > v
 	int j = l;
