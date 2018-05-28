@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxHeap", "MaxHeap\MaxHeap.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Excercise", "Excercise\Excercise.vcxproj", "{C726C7DA-FAB8-4E59-A1D2-376A0E12F403}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTree", "BinaryTree\BinaryTree.vcxproj", "{4FB0E139-459D-4085-AFB2-784533418375}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{C726C7DA-FAB8-4E59-A1D2-376A0E12F403}.Release|x64.Build.0 = Release|x64
 		{C726C7DA-FAB8-4E59-A1D2-376A0E12F403}.Release|x86.ActiveCfg = Release|Win32
 		{C726C7DA-FAB8-4E59-A1D2-376A0E12F403}.Release|x86.Build.0 = Release|Win32
+		{4FB0E139-459D-4085-AFB2-784533418375}.Debug|x64.ActiveCfg = Debug|x64
+		{4FB0E139-459D-4085-AFB2-784533418375}.Debug|x64.Build.0 = Debug|x64
+		{4FB0E139-459D-4085-AFB2-784533418375}.Debug|x86.ActiveCfg = Debug|Win32
+		{4FB0E139-459D-4085-AFB2-784533418375}.Debug|x86.Build.0 = Debug|Win32
+		{4FB0E139-459D-4085-AFB2-784533418375}.Release|x64.ActiveCfg = Release|x64
+		{4FB0E139-459D-4085-AFB2-784533418375}.Release|x64.Build.0 = Release|x64
+		{4FB0E139-459D-4085-AFB2-784533418375}.Release|x86.ActiveCfg = Release|Win32
+		{4FB0E139-459D-4085-AFB2-784533418375}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
